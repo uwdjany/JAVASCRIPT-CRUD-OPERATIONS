@@ -1,0 +1,66 @@
+body {
+  background: rgb(4, 4, 84);
+}
+
+table {
+  width: 80%;
+  margin: 40px auto;
+  background: rgb(193, 44, 69);
+}
+
+table .list {
+  text-align: center;
+  width: 100%;
+}
+
+td {
+  border: 1px solid rgb(122, 111, 111);
+  text-align: left;
+  padding: 8px 15px;
+}
+
+tr:nth-child(even),
+table.list thread > tr {
+  background-color: rgb(122, 111, 111);
+}
+input[type="text"],
+input[type="number"] {
+  width: 91%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(122, 111, 111);
+  border-radius: 4px;
+}
+input[type="submit"],
+input[type="reset"] {
+  background: #eee;
+  padding: 6px 12px;
+  margin: 15px 0 10px;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  border-radius: 30px;
+}
+input[type="submit"]:hover{
+    background:rgb(0, 119, 255) ;
+}
+input[type="reset"]:hover{
+    background:rgb(0, 119, 255) ;
+}
+button{
+    background: #eee;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 30px;
+     
+}
+button:hover{
+    background:rgb(0, 119, 255) ;
+
+}
